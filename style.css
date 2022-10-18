@@ -8,7 +8,7 @@ body{
     font-family: 'Poppins', sans-serif;
 }
 .container{
-    background-color: #EBEBED;
+    background-color: var(--primary-color);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -27,7 +27,7 @@ body{
 }
 .up-container .header .text h1{
     font-size: 24px;
-    color: #071321;
+    color: var(--secondary-color);
     text-align: left;
     margin-bottom: 8px;
 }
@@ -41,7 +41,7 @@ body{
 }
 .close-button svg{
     cursor: pointer;
-    color: #071321;
+    color: var(--secondary-color);;
 }
 .upload-box{
     border: 1px dashed #b7b7b7;
@@ -60,7 +60,7 @@ body{
 .upload-box span{
     margin-top: 10px;
     font-size: 12px;
-    color: #071321;
+    color: var(--secondary-color);
 }
 .file{
     display: block;
@@ -97,7 +97,7 @@ body{
 .files-container .file-list:hover,
 .files-container .file-list:focus,
 .files-container .file-list:active{
-    border: 1px solid #071321;
+    border: 1px solid var(--secondary-color);;
     cursor: pointer;
     transition:.400ms ease-in-out;
 }
@@ -111,11 +111,11 @@ body{
     border-radius: 6px;
     border: 1px solid rgba(0,0,0,0.1);
     margin-right: 16px;
-    color: #071321;
+    color: var(--secondary-color);;
 }
 .file-list .file-meta p{
     display: block;
-    color: #071321;
+    color: var(--secondary-color);;
     font-size: 14px;
     font-weight: 400;
 }
@@ -124,7 +124,7 @@ body{
 }
 .file-size{
     font-size: 12px;
-    color: #071321;
+    color: var(--secondary-color);;
 }
 .status-check svg{
     color: rgb(57, 186, 57);
@@ -147,7 +147,7 @@ body{
 .action-btn{
     padding: 12px 28px;
     border: 1px solid rgba(0,0,0,0.3);
-    color: #071321;
+    color: var(--secondary-color);;
     font-family: 'Poppins', sans-serif;
     background-color: #fff;
     border-radius: 8px;
